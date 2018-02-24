@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+   <text>{{name}}</text>
+   <text>{{user}}</text>
+   <checkbox checked="{{true}}"> </checkbox> 
+   <view> {{a + b}} + {{c}} + {{d}}={{a+b+c+d}} </view>
+   <view wx:for="{{[zero, 1, 2, 3, 4]}}" wx:key="{{item.index}}"> {{item}} </view> 
+   <navigator open-type="navigateTo" url="../demo/demo"><text>这是我自定义的秒杀页</text></navigator> 
+</view>

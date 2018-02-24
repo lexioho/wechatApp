@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/index/index",
+    "pages/buy/buy",
+    "pages/username/username",
+    "pages/demo/demo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#ff0"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"image/icon_API.png",
+        "selectedIconPath":"image/icon_API_HL.png"
+      },
+     
+      {
+        "pagePath": "pages/home/home",
+        "text": "秒杀",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png"
+      },
+      {
+        "pagePath": "pages/buy/buy",
+        "text": "买买",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png"
+      },
+      {
+        "pagePath": "pages/username/username",
+        "text": "个人",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png"
+      }
+    ],
+    "borderStyle":"white",
+    "backgroundColor":"skyblue",
+    "color":"purple",
+    "selectedColor":"green"
+  }
+}
